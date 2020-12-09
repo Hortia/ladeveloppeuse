@@ -1,0 +1,173 @@
+/* 
+style.css
+---------
+Par Hortense Lemaire
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face
+{
+    font-family: 'Avenir';
+    src: url(./../webfont/Avenir.ttc);
+}
+.header
+{
+    background-color: #8C041D;
+    display: flex;
+    flex-direction: column;
+}
+#logo
+{
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo img
+{
+    max-width: 300px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+#reseaux
+{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+}
+#reseaux ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#reseaux li
+{
+    margin-left: 1rem;
+}
+.iconheader
+{
+    max-width: 40px;
+}
+
+.footer
+{
+
+    background-color:#8C041D;
+    padding-bottom: 3rem;
+}
+#liste
+{
+    display: flex;
+    flex-direction: row;
+}
+.foot1
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5%;
+    width: 50%;
+    align-items: flex-start;
+}
+.footer h2
+{
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    color: white;
+    opacity: 1.0;
+}
+.foot2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 5%;
+    align-items: flex-end;
+    width: 50%;
+    color: white;
+}
+.iconscom
+{
+    max-width: 30px;
+    margin-right: 1rem;
+}
+.foot1 li
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
+    color: #A2CABF;
+}
+.footer a
+{
+    margin-bottom: 1rem;
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
+    color: #A2CABF;
+    margin-top: 0.1rem;
+    text-decoration: none;
+}
+.footer a:hover
+{
+    color: black;
+}
+.foot2 li
+{
+    margin-bottom: 1rem;
+}
+#copyright
+{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: #A2CABF;
+}
