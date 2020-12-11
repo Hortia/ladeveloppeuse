@@ -54,7 +54,7 @@ table {
 @font-face
 {
     font-family: 'Avenir';
-    src: url(./../webfont/Avenir.ttc);
+    src: url(./webfont/Avenir.ttc);
 }
 body
 {
